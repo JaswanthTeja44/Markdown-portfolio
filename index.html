@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Markdown Portfolio Editor</title>
+  <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <h1>📝 Markdown Portfolio Editor</h1>
+
+  <div class="hover-toolbar" title="Edit in Markdown and preview in real time">
+    ✨ Real-Time Markdown Editor
+  </div>
+
+  <div class="editor-container">
+    <textarea id="markdown" placeholder="Write your markdown content here..." aria-label="Markdown Input"></textarea>
+    <div id="preview" class="preview" aria-live="polite"></div>
+  </div>
+  <div id="error" class="error" role="alert"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="script.js">
+  </script>
+</body>
+
+</html>
